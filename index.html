@@ -18,11 +18,12 @@
     }
     .page-heading {
       display: flex;
+      flex-direction: column;
       align-items: center;
       gap: .75rem;
       margin: 0 0 1.5rem;
+      text-align: center;
     }
-    .page-heading img { flex-shrink: 0; }
     h1 {
       margin: 0;
       font: 400 clamp(1.5rem, 5vw, 2.625rem)/1.1 Georgia, serif;
@@ -58,22 +59,31 @@
   <main>
     <header class="page-heading">
       <img src="application.png" alt="" width="44" height="44">
-      <h1>Download Thirty Two by 32</h1>
+      <h1>Thirty Two by 32</h1>
+      <h1>Direct Download </h1>
     </header>
+    <br> Currently Windows and Linux are available in their respective app stores, or you may download them here directly.
+    <br> &nbsp;
     <ul>
       <li>
         <a href="ThirtyTwoBy32-macOS-universal.dmg" download>macOS (Universal DMG)</a>
         <a class="checksum" href="ThirtyTwoBy32-macOS-universal.dmg.sha256" download aria-label="Download SHA-256 checksum for macOS (Universal DMG)">SHA-256 checksum</a>
       </li>
       <li>
+        <a href="ThirtyTwoBy32-windows-x64-setup.exe" download>Windows (x64 Setup)</a>
+        <a class="checksum" href="ThirtyTwoBy32-windows-x64-SHA256.txt" download aria-label="Download SHA-256 checksum for Windows (x64 Setup)">SHA-256 checksum</a>
+      </li>
+      <li>
         <a href="thirtytwoby32_amd64.snap" download>Linux (AMD64 Snap)</a>
         <a class="checksum" href="thirtytwoby32_amd64.snap.sha256" download aria-label="Download SHA-256 checksum for Linux (AMD64 Snap)">SHA-256 checksum</a>
       </li>
     </ul>
-    <p>To verify a download, save its checksum in the same folder as the installer. 
-      <br>Inside that folder: 
-      <br>on macOS run: &nbsp; <code>shasum -a 256 -c [name].sha256</code> 
-      <br>on Linux run: &nbsp; <code>sha256sum -c [name].sha254</code>
+    <p>To verify a download, save the checksum file in the same folder as the installer and open a terminal in that folder.</p>
+    <p>On Windows, run <code>Get-FileHash -Algorithm SHA256 [name].exe</code> 
+      <br>in PowerShell and compare the result with the hash in the checksum file.</p>
+    <p>On macOS, run <code>shasum -a 256 -c [name].dmg.sha256</code>.
+      <br>
+      <br>On Linux, run <code>sha256sum -c [name].snap.sha256</code>.
     </p>
   </main>
 </body>
