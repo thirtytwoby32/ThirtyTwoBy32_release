@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Download Thirty Two by 32</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f7f7f0;
+      color: #20372c;
+      font: 1rem/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main {
+      max-width: 38rem;
+      margin: 0 auto;
+      padding: clamp(2rem, 8vw, 5rem) 1.25rem;
+    }
+    .page-heading {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      margin: 0 0 1.5rem;
+    }
+    .page-heading img { flex-shrink: 0; }
+    h1 {
+      margin: 0;
+      font: 400 clamp(1.5rem, 5vw, 2.625rem)/1.1 Georgia, serif;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      list-style: none;
+      padding: 0;
+    }
+    a {
+      display: block;
+      padding: .8rem 1.1rem;
+      border-radius: .35rem;
+      background: #214d3b;
+      color: white;
+      font-weight: 650;
+      text-underline-offset: .2em;
+    }
+    a:hover { background: #32684e; }
+    a.checksum {
+      display: inline-block;
+      padding: .4rem .25rem;
+      background: transparent;
+      color: #214d3b;
+      font-size: .875rem;
+    }
+    a:focus-visible { outline: 3px solid #b56b20; outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="page-heading">
+      <img src="application.png" alt="" width="44" height="44">
+      <h1>Download Thirty Two by 32</h1>
+    </header>
+    <ul>
+      <li>
+        <a href="ThirtyTwoBy32-macOS-universal.dmg" download>macOS (Universal DMG)</a>
+        <a class="checksum" href="ThirtyTwoBy32-macOS-universal.dmg.sha256" download aria-label="Download SHA-256 checksum for macOS (Universal DMG)">SHA-256 checksum</a>
+      </li>
+      <li>
+        <a href="thirtytwoby32_amd64.snap" download>Linux (AMD64 Snap)</a>
+        <a class="checksum" href="thirtytwoby32_amd64.snap.sha256" download aria-label="Download SHA-256 checksum for Linux (AMD64 Snap)">SHA-256 checksum</a>
+      </li>
+    </ul>
+    <p>To verify a download, save its checksum in the same folder as the installer. 
+      <br>Inside that folder: 
+      <br>on macOS run: &nbsp; <code>shasum -a 256 -c [name].sha256</code> 
+      <br>on Linux run: &nbsp; <code>sha256sum -c [name].sha254</code>
+    </p>
+  </main>
+</body>
+</html>

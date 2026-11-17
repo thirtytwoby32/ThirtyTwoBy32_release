@@ -1,0 +1,9 @@
+Change Log
+
+26.01
+Initial Release
+
+26.02
+ - fixed issue with road size
+ - add support to load JPG element files
+ - update CreatingCustomElements document
