@@ -1,9 +1,20 @@
 Change Log
 
-26.01
+26.1
 Initial Release
 
-26.02
+26.2
  - fixed issue with road size
  - add support to load JPG element files
  - update CreatingCustomElements document
+
+26.3
+ - Add 6 stud roads
+ - Add 7 stud roads
+ - Add 8 stud roads
+ - Add 9v track
+ - Update Element Schedule to show part numbers
+ - add Santa Fe train 
+ - Fix crash when PNG files are RGBA with an sRGB tag, 
+   PNG works correctly for RGB without a color-space tag.
+
