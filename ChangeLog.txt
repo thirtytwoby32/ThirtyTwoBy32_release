@@ -1,20 +1,30 @@
+
 Change Log
+
+26.4
+ - Change repeat keys from + / - keys to arrows, backspace key removes the added element
+ - Now allow for all elements to be repeated
+ - Allow you to select any element on canvas and repeat it
+ - Add ability to add a label to the plate elements, right click and select Add Label
+ - Add dialog to show the change log on startup and in the Help menu
+ - Added feature to realign table to grid in Table Definition view
+
+26.3
+ - Add 6 stud road plates 
+ - Add 7 stud road plates
+ - Add 8 stud road plates
+ - Add 9v train track
+ - Update Element Schedule to show part numbers
+ - Added Santa Fe 100020 train and cars
+ - Fix crash when PNG files are RGBA with an sRGB tag, 
+   PNG works correctly for RGB without a color-space tag.
+
+26.2
+ - Fixed issue with road size, roads were slightly undersized
+ - Added support to load JPG element files
+ - Update CreatingCustomElements document
+
 
 26.1
 Initial Release
-
-26.2
- - fixed issue with road size
- - add support to load JPG element files
- - update CreatingCustomElements document
-
-26.3
- - Add 6 stud roads
- - Add 7 stud roads
- - Add 8 stud roads
- - Add 9v track
- - Update Element Schedule to show part numbers
- - add Santa Fe train 
- - Fix crash when PNG files are RGBA with an sRGB tag, 
-   PNG works correctly for RGB without a color-space tag.
 
