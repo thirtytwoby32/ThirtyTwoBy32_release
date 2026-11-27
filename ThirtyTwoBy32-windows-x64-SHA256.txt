@@ -1,1 +1,1 @@
-92f21d77f6e502f18d5c380f027a05f78fa783d589a5757ee0c8c09b43aa1da4  ThirtyTwoBy32-26.3-windows-x64-setup.exe
+b9fa2a07155914bf9970d93e4f02f39433b1e5ce12b08b00fb86caa294687050  ThirtyTwoBy32-26.4.1-windows-x64-setup.exe
